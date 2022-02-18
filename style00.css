@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: lime;
+}
+
+.throw-button{
+    height: 100px;
+    width: 200px;
+
+    background-color: #aa00aa;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.throw-button:hover{
+    background-color: #440044;
+    cursor: pointer;
+}
+
+
